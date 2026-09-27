@@ -14,14 +14,6 @@ Product(int id, string name, double p, int stock)
 : productId(id), productName(name), price(p), stockQuantity(stock) {
 totalProducts++;
 }
-
-Zeal Education Society’s
-
-ZEAL COLLEGE OF ENGINEERING & RESEARCH, PUNE – 41
-(An Autonomous Institute Affiliated to Savitribai Phule Pune University)
-NBA Accredited, NAAC Accredited with A+ Grade, ISO 21001:2018
-DEPARTMENT OF ARTIFICIAL INTELLIGENCE AND DATA SCIENCE
-
 inline int getId() const { return productId; }
 inline string getName() const { return productName; }
 inline double getPrice() const { return price; }
